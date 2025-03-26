@@ -1,0 +1,8 @@
+.logo{
+    font-family: var(--font-heading);
+    font-weight: var(--extra--bold);
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: 0;
+    color: var(--second-color);
+}
