@@ -1,0 +1,17 @@
+.navLink {
+    color: var(--second-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--font-heading);
+    font-weight: var(--medium);
+}
+
+.navLink:hover {
+    color: var(--white);
+}
+
+.active {
+    color: var(--white);
+}
