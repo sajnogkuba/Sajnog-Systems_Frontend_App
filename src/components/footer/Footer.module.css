@@ -1,0 +1,28 @@
+.footer{
+    background-color: var(--white);
+}
+
+.flexContainer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.footerText{
+    font-family: var(--font-heading);
+    font-weight: var(--medium);
+    display: flex;
+    gap: 5px;
+    color: var(--second-color);
+    align-items: center;
+}
+
+.copyright{
+    color: #95959a;
+    font-size: 14px;
+    justify-items: center;
+    padding-bottom: 5px;
+    font-family: var(--font-heading);
+}
