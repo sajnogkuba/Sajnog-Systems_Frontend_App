@@ -15,7 +15,7 @@ const Header = () => {
 
   const navigate = useNavigate();
   return (
-    <>
+    <div className={styles.header}>
       <header className={styles.headerWrapper}>
         <Logo />
         <div className={styles.center}>
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
       </header>
       <Separator />
-    </>
+    </div>
   );
 };
 

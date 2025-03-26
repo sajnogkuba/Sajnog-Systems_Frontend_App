@@ -8,8 +8,11 @@
     --second-color: #BE770D;
     --font-heading: 'Poppins', sans-serif;
     --extra--bold: 800;
+    --bold: 700;
+    --semi-bold: 600;
     --medium: 500;
     --button-text-size: 18px;
+    --h1-size: 48px;
 }
 
 h1 {
@@ -29,7 +32,7 @@ h1 {
 }
 
 body{
-    background-color: red;
+    background-color: var(--first-color);
 }
 
 html, body {

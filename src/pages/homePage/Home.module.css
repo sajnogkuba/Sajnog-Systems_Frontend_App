@@ -1,0 +1,53 @@
+.heroSection {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.heroSection::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+            linear-gradient(var(--first-color-40), var(--first-color-40)),
+            url('public/background.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.heroHeader{
+    background-color: var(--first-color-80);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.heroHeader h1{
+    font-size: var(--h1-size);
+    color: var(--white);
+    font-weight: var(--bold);
+    font-family: var(--font-heading);
+}
+
+.heroHeader h3{
+    font-size: 28px;
+    color: var(--white);
+    font-weight: var(--medium);
+    font-family: var(--font-heading);
+}
+
+.link{
+    color: var(--second-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover{
+    color: var(--hover-color);
+}
+
+.flexContainer{
+    display: flex;
+}

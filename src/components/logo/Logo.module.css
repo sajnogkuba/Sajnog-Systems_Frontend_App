@@ -5,4 +5,5 @@
     line-height: normal;
     letter-spacing: 0;
     color: var(--second-color);
+    text-decoration: none;
 }
